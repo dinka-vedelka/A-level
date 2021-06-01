@@ -1,0 +1,19 @@
+div[class="text-box"] h3:first-child {
+    color: pink;
+}
+
+div[class="text-box"] p[id="greycol"] {
+    color: gray;
+}
+
+div[class="text-box"] div p {
+    color: red;
+}
+
+div[class="text-box"] p:nth-child(7) {
+    color: green;
+}
+
+div[class="text-box"] p[class="yellow"] {
+    color: yellow;
+}

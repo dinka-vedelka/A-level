@@ -1,0 +1,39 @@
+.content {
+    background-color: darkgray;
+}
+
+.div {
+    background-color: aqua;
+    border: beige solid medium;
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 5px 10px #888888
+}
+
+.div-2{
+    background-color: cadetblue;
+    border: beige solid medium;
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+
+    position:relative;
+    bottom:150px;
+    left:150px;
+    box-shadow: 5px 10px #888888
+}
+
+.div-3{
+    background-color: aquamarine;
+    border: beige solid medium;
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+
+    position:relative;
+    bottom:300px;
+    left:300px;
+    z-index: -1;
+    box-shadow: 5px 10px #888888
+}

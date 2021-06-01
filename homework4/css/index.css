@@ -1,0 +1,72 @@
+.canvas {
+    background-color: green;
+    color: green;
+    text-align: center;
+}
+
+.header {
+    position: relative;
+    margin-top: 30px;
+}
+
+.cite-canvas {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+    color: beige;
+}
+
+.author-canvas {
+    font-style: italic;
+    font-size: 40px;
+    color: beige;
+}
+
+.card {
+    width: 250px;
+}
+
+.playingCard-1 {
+    position: absolute;
+    left: 80%;
+    top: 170px;
+    z-index: 1;
+    transform: rotate(-20deg);
+    transition: 0.3s;
+}
+
+.playingCard-2 {
+    position: absolute;
+    left: 90%;
+    top: 150px;
+    z-index: 2;
+    transform: rotate(-5deg);
+    transition: 0.3s;
+}
+
+.playingCard-3 {
+    position: absolute;
+    left: 100%;
+    top: 180px;
+    z-index: 3;
+    transform: rotate(20deg);
+    transition: 0.3s;
+}
+
+.cards {
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+
+.playingCard-1:hover {
+    top: 130px;
+}
+
+.playingCard-2:hover {
+    top: 100px;
+}
+
+.playingCard-3:hover {
+    top: 130px;
+}

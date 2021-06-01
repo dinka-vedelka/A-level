@@ -1,0 +1,11 @@
+a[href^="https"] {
+    color: red;
+}
+
+div[class="holder"] ul[class="list"] > li:last-child {
+    background-color: green;
+}
+
+div[class="holder"] ul[class="list"] + p {
+    background-color: red;
+}
